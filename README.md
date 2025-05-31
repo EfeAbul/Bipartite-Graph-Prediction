@@ -96,6 +96,6 @@ This project uses:
 
 ---
 
-## ✍️ Author
+##  Author
 
 This project was developed as part of an academic exercise on graph classification and machine learning.
