@@ -1,11 +1,11 @@
 
-# 🔗 Bipartite Graph Classification using Graph Partitioning and Neural Networks
+# Bipartite Graph Classification using Graph Partitioning and Neural Networks
 
 This project explores the classification of bipartite graphs using deep learning methods. It combines classical graph theory techniques (like the Kernighan–Lin partitioning algorithm) with convolutional neural networks (CNNs) trained on adjacency matrix representations of graphs.
 
 ---
 
-## 📌 Project Overview
+## Project Overview
 
 - **Goal**: Automatically determine whether a given graph is bipartite based on its structure.
 - **Approach**:
@@ -16,13 +16,13 @@ This project explores the classification of bipartite graphs using deep learning
 
 ---
 
-## 📁 Files
+##  Files
 
 - `Bipartite_Graph.ipynb`: Main notebook containing data generation, labeling, model training, and evaluation.
 
 ---
 
-## 🔍 Graph Generation
+##  Graph Generation
 
 The dataset consists of graphs generated using the following models:
 - **Erdős–Rényi (ER)**: Random edge assignment.
@@ -34,7 +34,7 @@ Each graph is converted into a fixed-size adjacency matrix (e.g., 20×20) suitab
 
 ---
 
-## 🧠 Model Architecture
+##  Model Architecture
 
 A convolutional neural network (CNN) is used to classify the adjacency matrix:
 
@@ -48,7 +48,7 @@ Input → Conv2D → Flatten → Dense → Output
 
 ---
 
-## 🧪 Labeling Method
+##  Labeling Method
 
 Unlike traditional approaches that use `networkx.is_bipartite()`, this project:
 - Uses the **Kernighan–Lin algorithm** to partition the graph into two sets
@@ -57,7 +57,7 @@ Unlike traditional approaches that use `networkx.is_bipartite()`, this project:
 
 ---
 
-## 📊 Results & Insights
+##  Results & Insights
 
 After training, the model is evaluated on a separate test set to measure its ability to classify unseen graphs. Evaluation metrics include:
 - Accuracy
@@ -68,7 +68,7 @@ Visualization of training performance and example graph structures is included i
 
 ---
 
-## ⚙️ How to Run
+##  How to Run
 
 1. Clone the repository and open the notebook:
    ```bash
@@ -84,7 +84,7 @@ Visualization of training performance and example graph structures is included i
 
 ---
 
-## 📚 Requirements
+##  Requirements
 
 This project uses:
 - Python 3.x
